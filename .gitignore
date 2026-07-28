@@ -1,0 +1,22 @@
+# Secrets and credentials
+.env
+*.env
+*.key
+*.pem
+*.pfx
+*.p12
+*secret*
+*token*
+
+# Captured authentication data
+saml-responses/
+oidc-tokens/
+raw-assertions/
+
+# Editors
+.vscode/
+.idea/
+
+# Operating system
+Thumbs.db
+.DS_Store
